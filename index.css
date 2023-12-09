@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 192px 0 100px;
+    height: 12vh;
+}
+
+.image_head img {
+    width: 10vw;
+}
+.image_head a{
+    padding: 10px 20px;
+    background-color: #ff523b;
+    border-radius: 19px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.serach_bar {
+    width: 31vw;
+    height: 5vh;
+    border: 2px solid #ff523b;
+    border-radius: 15px;
+}
+
+#btn {
+    width: 100px;
+    height: 5vh;
+    /* position: relative;
+    right: 104px; */
+    background-color: #ffffff;
+    border: 2px solid #ff523b;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-weight: 700;
+
+}
+
+#btn:hover {
+
+    background-color: #ff523b;
+    color: white;
+    font-weight: 700;
+    border: 2px solid bisque;
+}
+
+.container_one {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    height: 56vh;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 30px 0;
+    font-family: 'Anton', sans-serif;
+}
+
+.heading :hover {
+    color: #ff523b;
+    text-shadow: rgb(68, 0, 255) 1px 0 10px;
+}
+
+.card_one {
+    /* display: flex;
+    justify-content: center; */
+    width: 16vw;
+    height: 55vh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.card_one:hover {
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.itmes_pic {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://m.media-amazon.com/images/I/71NdBTVoifL._AC_SX522_.jpg');
+    background-size: cover;
+
+}
+.itmes_pic1 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://3.imimg.com/data3/DN/PD/MY-4121280/winter-jackets-for-men-500x500.jpg');
+    background-size: cover;
+
+}
+.itmes_pic1 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://5.imimg.com/data5/SELLER/Default/2023/9/342462344/TI/HB/YO/92756521/men-jackets-250x250.jpg');
+    background-size: cover;
+
+}
+.itmes_pic2 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://3.imimg.com/data3/DN/PD/MY-4121280/winter-jackets-for-men-500x500.jpg');
+    background-size: cover;
+
+}
+.itmes_pic3 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://img.fruugo.com/product/0/29/1045878290_max.jpg');
+    background-size: cover;
+
+}
+.itmes_pic4 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://img.fruugo.com/product/4/16/980772164_max.jpg');
+    background-size: cover;
+
+}
+.itmes_pic4 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://img.fruugo.com/product/4/16/980772164_max.jpg');
+    background-size: cover;
+
+}
+.itmes_pic5 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://www.flashfootwear.com.pk/wp-content/uploads/2021/01/Grey-Hyper-Bolt-Running-Shoes-for-Men-2.jpg');
+    background-size: cover;
+
+}
+.itmes_pic6 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://www.jiomart.com/images/product/original/rvrgwpjvsp/bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-0-202209021256.jpg?im=Resize=(500,630)');
+    background-size: cover;
+
+}
+.itmes_pic7 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCXGqacId1dk7kAp6sozGdmdUa2CEa95mQ8rtp-4dQ-lrkVHMjNISigsZgrznBl-Smy1s&usqp=CAU');
+    background-size: cover;
+
+}
+.itmes_pic8 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://contents.mediadecathlon.com/p2153179/e958b22d2eccd9c7db0fea1da358fd8f/p2153179.jpg?format=auto&quality=70&f=650x0');
+    background-size: cover;
+
+}
+.itmes_pic9 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://contents.mediadecathlon.com/p2153171/61179e52ed0b3a1b4fdbddf2cfd168c5/p2153171.jpg?format=auto&quality=70&f=650x0');
+    background-size: cover;
+
+}
+.itmes_pic10 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://i.pinimg.com/236x/fb/26/d6/fb26d68b739d8d1933ec4cec6f56aedd.jpg');
+    background-size: cover;
+
+}
+.itmes_pic11 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://m.media-amazon.com/images/I/41zCPVkDbyL._AC_UL240_SR240,220_.jpg');
+    background-size: cover;
+
+}
+.itmes_pic12 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://m.media-amazon.com/images/I/41gy4aTnjvL.jpg');
+    background-size: cover;
+
+}
+.itmes_pic13 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://m.media-amazon.com/images/I/71jaTIJbWjL._AC_UF894,1000_QL80_.jpg');
+    background-size: cover;
+
+}
+.itmes_pic14 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://m.media-amazon.com/images/I/71q5lotD7TL._AC_UY1100_.jpg');
+    background-size: cover;
+
+}
+.itmes_pic15 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://5.imimg.com/data5/DA/EI/UW/SELLER-35605705/diaries-500x500.jpg');
+    background-size: cover;
+
+}
+.itmes_pic16 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://i5.walmartimages.com/seo/CoCopeaunts-New-Thin-Laptop-Backpack-Men-Bag-15-6-Inch-Office-Work-Women-Backpacks-Business-Bag-Unisex-Black-Backpack-Slim-Back-Pack-Hot_c7d816db-6ba4-4f50-b0e3-f1efa943e434.9df9e70515e16915a6248aacbadaafec.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF');
+    background-size: cover;
+
+}
+.itmes_pic17 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://select.pk/pub/media/catalog/product/cache/43281670b47ad6ef51ce1ba0e011ad5d/g/i/gionee_hand_free_original_-_select.pk.jpg');
+    background-size: cover;
+
+}
+.itmes_pic18 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://m.media-amazon.com/images/I/51BxH8oqNgL._AC_UF894,1000_QL80_.jpg');
+    background-size: cover;
+
+}
+.itmes_pic19 {
+    width: 13vw;
+    height: 25vh;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 15px 0 0 16px;
+    background-image: url('https://images.philips.com/is/image/PhilipsConsumer/223V7QHSB_00-IMS-en_PK?$jpglarge$&wid=960');
+    background-size: cover;
+
+}
+
+
+.heading_one {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 10px 0 0 12px;
+    color: #ff523b;
+}
+
+.paragraph {
+    padding: 0 10px;
+    font-weight: 600;
+    color: black;
+}
+
+.h_o {
+
+    font-family: 'Anton', sans-serif;
+    color: #ff523b;
+    margin: 20px 0 20px 50px;
+}
+.h_1 {
+    
+    font-family: 'Anton', sans-serif;
+    color: #ff523b;
+    margin: 45px 0 20px 68px;
+    text-decoration: underline #ff523b;
+}
+.price_one{
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    bottom: 12px;
+    font-weight: 700;
+}
+.p_rate{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 5px;
+    color: #ff523b;
+
+}
+footer{
+    margin: 80px 0 0 0 ;
+    height: 40vh;
+    background-color: #ff523b;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.para_footer{
+    text-align: center;
+    padding: 0 180px;
+    font-weight: 600;
+
+}
+.copyright_one{
+    margin: 20px 0 0 0;
+}
+.copyright_one:hover{
+    color: black;
+    text-shadow: rgb(253, 253, 253) 0px 0 12px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.image_footer{
+    margin: 50px 0 20px 0;
+    filter: drop-shadow(0 0 0.75rem bisque);
+}
